@@ -21,13 +21,15 @@
                 <div class="input-group-prepend">
                 <label class="input-group-text" for="inputGroupSelect01">actors</label>
                 </div>
-                <select name="actors" class="custom-select" id="inputGroupSelect01">
+                <select multiple name="actors[]" class="custom-select" id="inputGroupSelect01">
                     @foreach ($actors as $actor)
-                        @if ($actor->id  ==  $serie->actors[0]->id)
-                            <option value="{{ $actor->id }}">{{ $actor->completeName() }}</option>
-                        @else
-                            <option value="{{ $actor->id }}">{{ $actor->completeName() }}</option>
-                        @endif
+                        <option value="{{ $actor->id }}"
+                        @foreach ($serie->actors as $serieActor)
+                            @if ($serieActor->id == $actor->id)
+                                selected
+                            @endif
+                        @endforeach
+                        >{{ $actor->completeName() }}</option>
                     @endforeach
                 </select>
             </div>
