@@ -1,4 +1,5 @@
-# it-tp-laravel-crud
+# prepa-dfs-project-laravel-crud
+
 Practical work where i'm making a CRUD using Laravel for my Full-Stack Preparation cursus at [IT-Akademy](https://github.com/it-akademy)
 
 ## Getting Started
