@@ -1,6 +1,6 @@
 # prepa-dfs-project-laravel-crud
 
-Practical work where i'm making a CRUD using Laravel for my Full-Stack Preparation cursus at [IT-Akademy](https://github.com/it-akademy)
+Practical work where i'm making a CRUD using Laravel for my Full-Stack Preparation cursus at [IT-Akademy](https://github.com/itakademy)
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
-git clone https://github.com/methbkts/it-tp-laravel-crud.git
+git clone https://github.com/methbkts/prepa-dfs-project-laravel-crud.git
 ```
 
 ## About Laravel
